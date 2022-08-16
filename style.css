@@ -1,9 +1,3 @@
-[class="l_centr"]{
-    	color: red;
-	background-color: #00c4ff;
-    	border: 10px solid #0008ff;
-	margin-left:0px;
-}
 [class="topbablo"]{
 	color:red;
 }
@@ -17,6 +11,12 @@
     	color: grey;
 	background-color: #7FFFD4;
     	border: 0px solid #0f195c;
+	margin-left:0px;
+}
+[class="l_centr"]{
+    	color: grey;
+	background-color: #7FFFD4;
+    	border: 10px solid #0f195c;
 	margin-left:0px;
 }
 
