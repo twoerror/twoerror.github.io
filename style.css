@@ -20,7 +20,7 @@
 	margin-left:1px;
 }
 [class="backg"]{
-	background-color: #a8d7e1; /* Цвет блока */
+	background-color: grey; /* Цвет блока */
   	width: 1000%; /* Ширина блока */
  	height: 3500px; /* Высота блока */
 }
