@@ -10,6 +10,27 @@
     <link rel="icon" href="favicon.ico">
 
     <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-with-polyfills-latest.js"></script>
+    <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-token-with-polyfills-latest.js"></script>
+    <script>window.YaAuthSuggest.init(
+    {
+      client_id: "8d5e7e2bccc74aa98302ac6ce34783fd",
+      response_type: "token",
+      redirect_uri: "https://twoerror.github.io/"
+    },
+    "https://twoerror.github.io",
+    {
+      view: "button",
+      parentId: "buttonContainerId",
+      buttonSize: 'xs',
+      buttonView: 'additional',
+      buttonTheme: 'dark',
+      buttonBorderRadius: "22",
+      buttonIcon: 'ya',
+    }
+  )
+  .then(({handler}) => handler())
+  .then(data => console.log('Сообщение с токеном', data))
+  .catch(error => console.log('Обработка ошибки', error))</script>
     
     <H3><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
     Надеюсь, вы уже прочитали условия пользования нашим сайтом!
